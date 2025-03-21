@@ -1,6 +1,8 @@
 ---
 layout: /layouts/base
 title: Blog
+eleventyNavigation:
+    key: Blog
 ---
 This is a blog index page.
 
