@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>{{ title }}</title>
 </head>
 <body>
     <header>
         <!-- header content -->
-        <p>header content</p>
+        {% include "partials/header.html" %}
     </header>
     <main>
         <!-- main content -->
-        <p>Homepage content</p>
-
+        {{ content | safe }}
     </main>
     <footer>
         <!-- footer content -->
-        <p>footer content</p>
+        {% include "partials/footer.html" %}
     </footer>
 </body>
 </html>
