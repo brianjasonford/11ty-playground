@@ -10,5 +10,5 @@ npm-debug.*
 
 # Node modules and output
 node_modules
-/public
+public
 src/_includes/css
